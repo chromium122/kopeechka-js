@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_OPTION_NOT_SUPPORTED",
+    "err": {
+      "name": "pnpm",
+      "message": "The \"add\" command currently does not support the no-save option",
+      "code": "ERR_PNPM_OPTION_NOT_SUPPORTED",
+      "stack": "pnpm: The \"add\" command currently does not support the no-save option\n    at Object.handler [as add] (/usr/local/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:122114:15)\n    at /usr/local/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:182127:83\n    at async run (/usr/local/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:182103:34)\n    at async runPnpm (/usr/local/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:182322:5)\n    at async /usr/local/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:182314:7"
+    }
+  }
+}

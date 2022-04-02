@@ -1,0 +1,20 @@
+{
+  "name": "kopeechka-js",
+  "version": "0.0.1",
+  "description": "Consume the kopeechka.store API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChromiumCat0/kopeechka-js.git"
+  },
+  "author": "chromium <chromium@0x539.tech>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ChromiumCat0/kopeechka-js/issues"
+  },
+  "homepage": "https://github.com/ChromiumCat0/kopeechka-js#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "type": "module"
+}
