@@ -57,7 +57,7 @@ class Kopeechka {
             if (!res.data) return reject(new Error("No data returned."));
             if (res.data.status == "error")
                 return reject(new Error(res.data.value));
-            return resolve(data);
+            return resolve(res.data);
         });
     }
 }
