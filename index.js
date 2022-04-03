@@ -47,11 +47,11 @@ class Kopeechka {
         return new Promise(async (resolve, reject) => {
             data.api = "2.0";
             data.token = this.apiKey;
+	    data.id = taskID;
             const res = await axios.get(
                 `https://api.kopeechka.store/mailbox-get-message`,
                 {
                     params: data,
-		    id: taskID,
                 }
             );
 
