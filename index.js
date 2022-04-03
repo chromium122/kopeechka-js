@@ -51,6 +51,7 @@ class Kopeechka {
                 `https://api.kopeechka.store/mailbox-get-message`,
                 {
                     params: data,
+		    id: taskID,
                 }
             );
 

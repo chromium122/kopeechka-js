@@ -1,6 +1,6 @@
 {
   "name": "kopeechka-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Consume the kopeechka.store API",
   "main": "index.js",
   "repository": {
