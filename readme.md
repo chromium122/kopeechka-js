@@ -1,3 +1,4 @@
+# DEPRECATED
 ## Usage
 ES6
 ```js
